@@ -1,0 +1,78 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+	"vim.leader": ",",
+	"vim.insertModeKeyBindings": [
+		{
+			"before": [
+				"z",
+				"z"
+			],
+			"after": [
+				"<Esc>"
+			]
+		}
+	],
+	"vim.visualModeKeyBindings": [
+		{
+			"before": [
+				"z",
+				"z"
+			],
+			"after": [
+				"<Esc>"
+			]
+		}
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"leader",
+				"w"
+			],
+			"commands": [":w"]
+		},
+		{
+			"before": [
+				"leader",
+				"leader",
+			],
+			"commands": ["workbench.action.showCommands"]
+		},
+		{
+			"before": [
+				"leader",
+				"v",
+				"s",
+			],
+			"commands": ["workbench.action.splitEditor"]
+		},
+		{
+			"before": [
+				"leader",
+				"q",
+			],
+			"commands": ["workbench.action.closeActiveEditor"]
+	},
+	],
+	"vim.handleKeys": {
+		"<C-a>": false,
+		"<C-f>": true,
+		"<C-b>": true,
+		"<C-l>": true,
+	},
+	"files.exclude": {
+		"**/.project": true,
+		"**/.settings": true,
+	},
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"eslint.alwaysShowStatus": true,
+	"eslint.autoFixOnSave": true,
+	"eslint.packageManager": "yarn"
+  }
+}
